@@ -1,0 +1,87 @@
+html {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-family: 'Inconsolata', serif;
+    font-size: 18px;
+    /* background: linear-gradient(to top, #33ccff %, #ffffff 100%); */
+    background-color: beige;
+    /* background-color: linear-gradient(to top, white, blue,100%); */
+    
+}
+
+
+header{
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    height: 33px;
+}
+
+#header-name{
+    float: left;
+}
+
+#header-github{
+    float:right;
+    width: 32px;
+    height: auto;
+}
+
+nav{
+    clear:both;
+    margin-bottom: 20px;
+}
+
+#ind-nav{
+    display: inline-block;
+}
+
+#div-home{
+    float:left;
+}
+
+#ul-home{
+    padding-left: 0px;
+}
+
+#div-nav-balance{
+    float:right;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    clear: both
+}
+
+
+#output{
+    margin-top: 50px;
+}
+
+#inner-Out{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+#inner-Out-final{
+    text-align: justify;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 5px;
+    color: blueviolet;
+}
+
+nav a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-color: blueviolet;
+}
